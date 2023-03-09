@@ -92,7 +92,7 @@
       <AssemblyReference>UiPath.DocumentUnderstanding.Digitizer</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="376,423" sap2010:WorkflowViewState.IdRef="Sequence_38">
+  <Sequence sap:VirtualizedContainerService.HintSize="376,322" sap2010:WorkflowViewState.IdRef="Sequence_38">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="ElementExists" />
       <Variable x:TypeArguments="ui:UiElement" Name="FindElement" />
@@ -115,6 +115,5 @@
       </ui:WaitUiElementVanish.Target>
     </ui:WaitUiElementVanish>
     <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,84" sap2010:WorkflowViewState.IdRef="MessageBox_8" Text="[&quot;After Element Vanish&quot;]" />
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Second test write line" />
   </Sequence>
 </Activity>
